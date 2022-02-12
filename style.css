@@ -1,0 +1,858 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+  min-width: 100vw;
+  overflow-x: hidden;
+}
+
+header {
+  position: fixed;
+  width: 100vw;
+  height: 50px;
+  z-index: 999;
+  background-color: #dddddd;
+}
+
+header .left {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50px;
+  width: 450px;
+  left: 150px;
+}
+
+header .left .d1 {
+  position: relative;
+  width: 200px;
+  height: 50px;
+}
+
+header .left .d1 i {
+  position: relative;
+  top: 18px;
+  left: 5px;
+  color: #00d37b;
+}
+
+header .left .d1 p {
+  position: relative;
+  left: 30px;
+}
+
+header .left .d2 {
+  position: relative;
+  width: 250px;
+  height: 50px;
+}
+
+header .left .d2 i {
+  position: relative;
+  top: 18px;
+  left: 5px;
+  color: #00d37b;
+}
+
+header .left .d2 p {
+  position: relative;
+  left: 30px;
+}
+
+header .right {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 50px;
+  width: 450px;
+  left: 800px;
+  top: -50px;
+}
+
+header .right i {
+  position: relative;
+  color: gray;
+  cursor: pointer;
+  width: 30px;
+  padding-left: 12px;
+  padding-top: 14px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+header .right i:hover {
+  color: white;
+  background-color: #0044b1;
+}
+
+header .header2 {
+  position: relative;
+  height: 70px;
+  top: -50px;
+  z-index: 999;
+  background-color: white;
+}
+
+header .header2 .left {
+  position: relative;
+  width: 125px;
+  height: 30px;
+  top: 20px;
+  cursor: pointer;
+}
+
+header .header2 .right {
+  position: relative;
+  height: 70px;
+}
+
+header .header2 .right .justcontent {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+header .header2 .right .justcontent a {
+  position: relative;
+  color: gray;
+  font-size: 20px;
+  margin: 9px;
+  top: 35px;
+  text-decoration: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+header .header2 .right .justcontent a:hover {
+  color: black;
+}
+
+.main {
+  position: relative;
+  width: 100vw;
+  height: 600px;
+  top: 0px;
+  background-image: url("https://technext.github.io/made/assets/images/home-bg.jpg");
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .centerText {
+  position: relative;
+  width: 600px;
+  height: 200px;
+  left: 300px;
+}
+
+.main .centerText h2 {
+  position: relative;
+  font-size: 40px;
+  color: white;
+  font-weight: 300;
+}
+
+.main .centerText h1 {
+  position: relative;
+  font-size: 45px;
+  color: white;
+  font-weight: bold;
+  top: 25px;
+}
+
+.main .centerText p {
+  position: relative;
+  color: white;
+  font-size: 25px;
+  top: 50px;
+}
+
+.main .buttons {
+  position: relative;
+  width: 600px;
+  height: 100px;
+  top: 200px;
+  right: 300px;
+}
+
+.main .buttons button {
+  position: relative;
+  padding: 15px;
+  border: none;
+  height: 50px;
+  width: 200px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 15px;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  margin: 5px;
+}
+
+.main .buttons .btn1 {
+  color: white;
+  background-color: #00a885;
+}
+
+.main .buttons .btn1:hover {
+  color: #00a885;
+  background-color: white;
+}
+
+.main .buttons .btn2 {
+  color: white;
+  border: 1px solid #c5c5c5;
+  background-color: transparent;
+}
+
+.main .buttons .btn2:hover {
+  border: 1px solid #00a885;
+  background-color: #00a885;
+}
+
+.main .d1 {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  right: 1250px;
+}
+
+.main .d1 i {
+  position: relative;
+  color: white;
+  font-size: 70px;
+  padding-top: 20px;
+}
+
+.main .d2 {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  right: 40px;
+}
+
+.main .d2 i {
+  position: relative;
+  color: white;
+  font-size: 70px;
+  padding-top: 20px;
+}
+
+.main .dots {
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  top: 550px;
+}
+
+.main .dots i {
+  font-size: 50px;
+  color: white;
+}
+
+.section1 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 200px;
+}
+
+.section1 .left {
+  position: relative;
+}
+
+.section1 .left i {
+  position: relative;
+  font-size: 50px;
+  color: #00a885;
+  top: 50px;
+  left: 5px;
+}
+
+.section1 .left h2 {
+  position: relative;
+  left: 70px;
+}
+
+.section1 .left pre {
+  position: relative;
+  top: 15px;
+}
+
+.section1 .center {
+  position: relative;
+}
+
+.section1 .center i {
+  position: relative;
+  font-size: 50px;
+  color: #00a885;
+  top: 50px;
+  left: 5px;
+}
+
+.section1 .center h2 {
+  position: relative;
+  left: 70px;
+}
+
+.section1 .center pre {
+  position: relative;
+  top: 15px;
+}
+
+.section1 .right {
+  position: relative;
+}
+
+.section1 .right i {
+  position: relative;
+  font-size: 50px;
+  color: #00a885;
+  top: 50px;
+  left: 5px;
+}
+
+.section1 .right h2 {
+  position: relative;
+  left: 70px;
+}
+
+.section1 .right pre {
+  position: relative;
+  top: 15px;
+}
+
+.section1 pre {
+  color: gray;
+}
+
+.section2 {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  background-color: #ebebeb;
+}
+
+.section2 .left {
+  position: relative;
+  left: 100px;
+  width: 500px;
+  height: 400px;
+  border: none;
+  top: 100px;
+  border-radius: 5px;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 25px 19px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 0px 25px 19px rgba(0, 0, 0, 0.3);
+}
+
+.section2 .right {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  left: 630px;
+  top: -300px;
+}
+
+.section2 .right p {
+  position: relative;
+  top: 40px;
+}
+
+.section2 .right pre {
+  position: relative;
+  top: 80px;
+  left: -90px;
+}
+
+.section2 .right .btns {
+  position: relative;
+  width: 600px;
+  height: 60px;
+  top: 100px;
+}
+
+.section2 .right .btns button {
+  position: relative;
+  padding: 15px;
+  border: none;
+  height: 50px;
+  width: 200px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 15px;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  margin: 5px;
+}
+
+.section2 .right .btns .bt2 {
+  color: white;
+  background-color: #00a885;
+}
+
+.section2 .right .btns .bt2:hover {
+  color: #00a885;
+  border: 1px solid black;
+  background-color: #ebebeb;
+}
+
+.section2 .right .btns .bt1 {
+  color: black;
+  border: 1px solid black;
+  background-color: transparent;
+}
+
+.section2 .right .btns .bt1:hover {
+  color: white;
+  border: 1px solid #00a885;
+  background-color: #00a885;
+}
+
+.section3 {
+  position: relative;
+  width: 100%;
+  height: 600px;
+}
+
+.section3 .headtext {
+  position: relative;
+  top: 100px;
+}
+
+.section3 .headtext h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.section3 .headtext p {
+  position: relative;
+  top: 10px;
+  text-align: center;
+  color: gray;
+}
+
+.section3 .fourimage {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  margin: 150px 55px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.section3 .fourimage img {
+  height: 200px;
+  cursor: pointer;
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
+}
+
+.section3 .fourimage img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.section3 .textforimg {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  margin: -140px 55px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.section3 .textforimg .p1 {
+  position: absolute;
+  left: 35px;
+}
+
+.section3 .textforimg .p2 {
+  position: absolute;
+  left: 350px;
+}
+
+.section3 .textforimg .p3 {
+  position: absolute;
+  right: 460px;
+}
+
+.section3 .textforimg .p4 {
+  position: absolute;
+  right: 150px;
+}
+
+.section3 .pforimg {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  margin: 160px 55px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.section3 .pforimg p {
+  font-size: 15px;
+}
+
+.section3 .pforimg .b1 {
+  position: absolute;
+  left: 35px;
+}
+
+.section3 .pforimg .b2 {
+  position: absolute;
+  left: 350px;
+}
+
+.section3 .pforimg .b3 {
+  position: absolute;
+  right: 473px;
+}
+
+.section3 .pforimg .b4 {
+  position: absolute;
+  right: 163px;
+}
+
+.section4 {
+  position: relative;
+  height: 400px;
+  width: 100%;
+  background-color: #f3f3f3;
+}
+
+.section4 .headtext {
+  position: relative;
+  height: 70px;
+  top: 50px;
+}
+
+.section4 .headtext h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.section4 .headtext p {
+  position: relative;
+  top: 10px;
+  text-align: center;
+  color: gray;
+}
+
+.section4 .twopeople {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 90%;
+  height: 250px;
+  left: 50px;
+  top: 80px;
+}
+
+.section4 .twopeople .d1 {
+  position: relative;
+  height: 200px;
+  width: 550px;
+  top: 30px;
+  -webkit-transition: 1s;
+  transition: 1s;
+  background-color: transparent;
+}
+
+.section4 .twopeople .d1 .left {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  top: 30px;
+  left: 50px;
+}
+
+.section4 .twopeople .d1 .left img {
+  border-radius: 100%;
+}
+
+.section4 .twopeople .d1 .right {
+  position: relative;
+  width: 300px;
+  height: 100px;
+  top: -50px;
+  left: 200px;
+}
+
+.section4 .twopeople .d1 .right h1 {
+  font-size: 18px;
+}
+
+.section4 .twopeople .d1 .right pre {
+  position: relative;
+  font-size: 13px;
+  top: 10px;
+  color: #5d5d5d;
+}
+
+.section4 .twopeople .d1:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  border: 1px solid #858585;
+  background-color: #dddddd;
+}
+
+.section4 .twopeople .d2 {
+  position: relative;
+  height: 200px;
+  width: 550px;
+  top: 30px;
+  -webkit-transition: 1s;
+  transition: 1s;
+  background-color: transparent;
+}
+
+.section4 .twopeople .d2 .left {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  top: 30px;
+  left: 50px;
+}
+
+.section4 .twopeople .d2 .left img {
+  border-radius: 100%;
+}
+
+.section4 .twopeople .d2 .right {
+  position: relative;
+  width: 300px;
+  height: 100px;
+  top: -50px;
+  left: 200px;
+}
+
+.section4 .twopeople .d2 .right h1 {
+  font-size: 18px;
+}
+
+.section4 .twopeople .d2 .right pre {
+  position: relative;
+  font-size: 13px;
+  top: 10px;
+  color: #5d5d5d;
+}
+
+.section4 .twopeople .d2:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  border: 1px solid #858585;
+  background-color: #dddddd;
+}
+
+.section5 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 90%;
+  left: 70px;
+  height: 100px;
+}
+
+.section5 img {
+  position: relative;
+  width: 150px;
+  height: 40px;
+  top: 50px;
+  cursor: pointer;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+.section5 img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+}
+
+footer {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+  height: 500px;
+  top: 50px;
+  background-color: #222222;
+}
+
+footer .d1 {
+  position: relative;
+  height: 400px;
+  top: 50px;
+  width: 300px;
+}
+
+footer .d1 h1 {
+  font-size: 20px;
+  color: white;
+}
+
+footer .d1 pre {
+  position: relative;
+  top: 20px;
+  color: #a0a0a0;
+}
+
+footer .d1 b {
+  color: white;
+}
+
+footer .d2 {
+  position: relative;
+  height: 400px;
+  top: 50px;
+  width: 300px;
+}
+
+footer .d2 h1 {
+  font-size: 20px;
+  color: white;
+}
+
+footer .d2 .img1 {
+  position: absolute;
+  top: 40px;
+}
+
+footer .d2 .img2 {
+  position: absolute;
+  top: 125px;
+}
+
+footer .d2 .img3 {
+  position: absolute;
+  top: 220px;
+}
+
+footer .d2 pre {
+  color: #a0a0a0;
+}
+
+footer .d3 {
+  position: relative;
+  height: 400px;
+  top: 50px;
+  width: 300px;
+  right: 20px;
+}
+
+footer .d3 h1 {
+  font-size: 20px;
+  color: white;
+}
+
+footer .d3 b {
+  cursor: pointer;
+  color: #a0a0a0;
+  font-weight: 100;
+  letter-spacing: 3px;
+  border-bottom: 1px solid white;
+  border-bottom-style: dashed;
+}
+
+footer .d3 b:hover {
+  color: white;
+}
+
+footer .d4 {
+  position: relative;
+  height: 400px;
+  top: 50px;
+  right: 20px;
+  width: 300px;
+}
+
+footer .d4 h1 {
+  font-size: 20px;
+  color: white;
+}
+
+footer .d4 h2 {
+  position: relative;
+  top: 100px;
+  color: white;
+}
+
+footer .d4 pre {
+  position: relative;
+  color: #a0a0a0;
+  top: 100px;
+}
+
+footer .d4 input {
+  position: relative;
+  padding: 10px;
+  font-size: 15px;
+  background-color: transparent;
+  outline: none;
+  color: white;
+  top: 20px;
+  border: 1px solid gray;
+}
+
+footer .d4 button {
+  position: relative;
+  padding: 10px;
+  width: 50px;
+  cursor: pointer;
+  border: none;
+  top: 21px;
+  left: -5.5px;
+  background-color: #00a885;
+}
+
+footer .d4 button i {
+  position: relative;
+  font-size: 20px;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
